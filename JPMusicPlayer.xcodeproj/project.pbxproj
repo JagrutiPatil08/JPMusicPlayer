@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325772F91DCCA98700D07D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 325772F81DCCA98700D07D00 /* main.m */; };
+		325772FC1DCCA98700D07D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 325772FB1DCCA98700D07D00 /* AppDelegate.m */; };
+		325772FF1DCCA98700D07D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325772FE1DCCA98700D07D00 /* ViewController.m */; };
+		325773021DCCA98700D07D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325773001DCCA98700D07D00 /* Main.storyboard */; };
+		325773041DCCA98700D07D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325773031DCCA98700D07D00 /* Assets.xcassets */; };
+		325773071DCCA98700D07D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325773051DCCA98700D07D00 /* LaunchScreen.storyboard */; };
+		3257730F1DCCADFA00D07D00 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3257730E1DCCADFA00D07D00 /* AVFoundation.framework */; };
+		325773111DCCAE4F00D07D00 /* myMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 325773101DCCAE4F00D07D00 /* myMusic.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		325772F41DCCA98700D07D00 /* JPMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		325772F81DCCA98700D07D00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		325772FA1DCCA98700D07D00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		325772FB1DCCA98700D07D00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		325772FD1DCCA98700D07D00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		325772FE1DCCA98700D07D00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		325773011DCCA98700D07D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325773031DCCA98700D07D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325773061DCCA98700D07D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		325773081DCCA98700D07D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3257730E1DCCADFA00D07D00 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		325773101DCCAE4F00D07D00 /* myMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myMusic.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325772F11DCCA98700D07D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3257730F1DCCADFA00D07D00 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325772EB1DCCA98700D07D00 = {
+			isa = PBXGroup;
+			children = (
+				3257730E1DCCADFA00D07D00 /* AVFoundation.framework */,
+				325772F61DCCA98700D07D00 /* JPMusicPlayer */,
+				325772F51DCCA98700D07D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		325772F51DCCA98700D07D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325772F41DCCA98700D07D00 /* JPMusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325772F61DCCA98700D07D00 /* JPMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				325773101DCCAE4F00D07D00 /* myMusic.mp3 */,
+				325772FA1DCCA98700D07D00 /* AppDelegate.h */,
+				325772FB1DCCA98700D07D00 /* AppDelegate.m */,
+				325772FD1DCCA98700D07D00 /* ViewController.h */,
+				325772FE1DCCA98700D07D00 /* ViewController.m */,
+				325773001DCCA98700D07D00 /* Main.storyboard */,
+				325773031DCCA98700D07D00 /* Assets.xcassets */,
+				325773051DCCA98700D07D00 /* LaunchScreen.storyboard */,
+				325773081DCCA98700D07D00 /* Info.plist */,
+				325772F71DCCA98700D07D00 /* Supporting Files */,
+			);
+			path = JPMusicPlayer;
+			sourceTree = "<group>";
+		};
+		325772F71DCCA98700D07D00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				325772F81DCCA98700D07D00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325772F31DCCA98700D07D00 /* JPMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3257730B1DCCA98700D07D00 /* Build configuration list for PBXNativeTarget "JPMusicPlayer" */;
+			buildPhases = (
+				325772F01DCCA98700D07D00 /* Sources */,
+				325772F11DCCA98700D07D00 /* Frameworks */,
+				325772F21DCCA98700D07D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMusicPlayer;
+			productName = JPMusicPlayer;
+			productReference = 325772F41DCCA98700D07D00 /* JPMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325772EC1DCCA98700D07D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jagruti Patil";
+				TargetAttributes = {
+					325772F31DCCA98700D07D00 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 325772EF1DCCA98700D07D00 /* Build configuration list for PBXProject "JPMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325772EB1DCCA98700D07D00;
+			productRefGroup = 325772F51DCCA98700D07D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325772F31DCCA98700D07D00 /* JPMusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325772F21DCCA98700D07D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325773111DCCAE4F00D07D00 /* myMusic.mp3 in Resources */,
+				325773071DCCA98700D07D00 /* LaunchScreen.storyboard in Resources */,
+				325773041DCCA98700D07D00 /* Assets.xcassets in Resources */,
+				325773021DCCA98700D07D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325772F01DCCA98700D07D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325772FF1DCCA98700D07D00 /* ViewController.m in Sources */,
+				325772FC1DCCA98700D07D00 /* AppDelegate.m in Sources */,
+				325772F91DCCA98700D07D00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		325773001DCCA98700D07D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325773011DCCA98700D07D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325773051DCCA98700D07D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325773061DCCA98700D07D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		325773091DCCA98700D07D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3257730A1DCCA98700D07D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3257730C1DCCA98700D07D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patiljagruti.JPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3257730D1DCCA98700D07D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patiljagruti.JPMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325772EF1DCCA98700D07D00 /* Build configuration list for PBXProject "JPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325773091DCCA98700D07D00 /* Debug */,
+				3257730A1DCCA98700D07D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3257730B1DCCA98700D07D00 /* Build configuration list for PBXNativeTarget "JPMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3257730C1DCCA98700D07D00 /* Debug */,
+				3257730D1DCCA98700D07D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325772EC1DCCA98700D07D00 /* Project object */;
+}
